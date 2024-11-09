@@ -23,11 +23,11 @@ Créer un jeu où l'utilisateur doit deviner un nombre aléatoire entre 0 et 99.
    const randomNumber = Math.floor(Math.random() * 100);
    ```
 
-   ```
-   Remarques :
-   Math.random() génère un nombre décimal aléatoire entre 0 (inclus) et 1 (exclus). En multipliant le nombre aléatoire par 100, on obtient un nombre décimal compris entre 0 et    99.9999.... Cela permet d'atteindre n'importe quelle valeur décimale dans cette plage, comme 45.67 ou 82.91.
-   Math.floor() "arrondit vers le bas" le nombre aléatoire obtenu. Par exemple, 45.67 deviendra 45, et 82.91 deviendra 82. Cela nous permet d'obtenir un nombre entier entre 0 et 99. 
-```
+ Remarques :
+   **Math.random()** génère un nombre décimal aléatoire entre 0 (inclus) et 1 (exclus). En multipliant le nombre aléatoire par 100, on obtient un nombre décimal compris entre 0 et    99.9999.... Cela permet d'atteindre n'importe quelle valeur décimale dans cette plage, comme 45.67 ou 82.91. 
+   
+   **Math.floor()** "arrondit vers le bas" le nombre aléatoire obtenu. Par exemple, 45.67 deviendra 45, et 82.91 deviendra 82. Cela nous permet d'obtenir un nombre entier entre 0 et 99. 
+
 
 2. **Bouton de vérification** : Sélectionnez le bouton en utilisant `document.getElementById`.
 
