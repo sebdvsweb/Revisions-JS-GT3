@@ -42,6 +42,8 @@ Créer un jeu où l'utilisateur doit deviner un nombre aléatoire entre 0 et 99.
 ### Objectif
 Créer une page où l'utilisateur peut activer, désactiver, et ajuster la vitesse d'une animation en cliquant sur des boutons.
 
+![Animation JS](https://sebastien-devos.fr/img/codegt/animation-js.png "Animation JS").
+
 ---
 
 ### Consignes pour le code HTML
